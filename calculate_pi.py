@@ -1,33 +1,3 @@
-'''
-
-How to calculate pi using points of a random unit between 0 and 1
-
-to determine the coordinate of the point in the space between 0 and 1, we use coordinate:
-coordinate x for horizontal axis
-coordinate y for vertical axis
-(x,y)
-
-to determine whether the points are in the circle, we use the pythagorean theorem to
-calculate the distance from the center of the circle to the point(x,y):
-c**2 = a**2 + b**2
-distance**2 = x**2 + y**2
-if x**2 + y**2 < 1 then the square root wont be more then 1 and vice versa, so:
-distance = x**2 + y**2
-
-An area of circle = pi * r**2
-An area of square = d**2 or 4 * r**2 <==we use this
-
-to calculate pi:
-Area of circle / Area of square = the number points in the circle / total number of points
-pi * r**2 / 4 * r**2 = the number points in the circle / total number of points
-pi / 4 = the number points in the circle / total number of points
-pi = 4 * the number points in the circle / total number of points
-
-The more points the more likely close to pi value
-
-'''
-
-
 import random
 import matplotlib.pyplot as plt     #install library 'pip install matplotlib'
 
