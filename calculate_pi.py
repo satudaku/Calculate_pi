@@ -32,7 +32,7 @@ def calculate_pi(n):
     plt.figtext(0.02, 0.95, 'π = ' + str(pi))
     print('The estimate pi using', n, 'points is', pi)
 
-    return
+    return input_num_point()
 
 
 def input_num_point():
@@ -47,7 +47,6 @@ def input_num_point():
     calculate_pi(num_point)
 
     return plt.show()  # show the figure
-
 
 print('Calculation to find the value of pi using random points between 0 to 1')
 input_num_point()
