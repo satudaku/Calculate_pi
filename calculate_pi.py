@@ -30,7 +30,7 @@ def calculate_pi(n):
 
     pi = 4 * num_point_circle / num_point_total  # use equation to get pi
     plt.figtext(0.02, 0.95, 'π = ' + str(pi))
-    print(pi)
+    print('The estimate pi using', n, 'points is', pi)
 
     return
 
