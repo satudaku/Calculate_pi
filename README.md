@@ -29,4 +29,4 @@ pi * r**2 / 4 * r**2 = the number points in the circle / total number of points
 pi / 4 = the number points in the circle / total number of points
 pi = 4 * the number points in the circle / total number of points
 ```
-The more points the more likely close to pi value.
+The more points will bring result closer to pi value.
